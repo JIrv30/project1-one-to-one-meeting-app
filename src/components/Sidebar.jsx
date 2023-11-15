@@ -1,4 +1,4 @@
-import Logo from '../../public/brune-park-logo.png'
+import Logo from '../assets/brune-park-logo.png'
 import { PiTargetBold } from 'react-icons/pi'
 import {RiSurveyLine} from 'react-icons/ri'
 import {BsListCheck, BsFileEarmarkBarGraph, BsFillPersonFill} from 'react-icons/bs'
@@ -39,7 +39,7 @@ const Sidebar = () => {
 
       <div className='flex pl-4 items-center gap-2'>
         <BsFileEarmarkBarGraph />
-        <h3><Link to='Perfomrance-Records'>Perfomrance Records</Link></h3>
+        <h3><Link to='Perfomrance-Records'>Performance Records</Link></h3>
       </div>
 
       <div className='flex pl-4 items-center gap-2'>
